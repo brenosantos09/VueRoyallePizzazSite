@@ -101,17 +101,6 @@
                     <button type="button" class="btn btn-dark col-12">Comprar</button>
             </div>
 
-             <div class="col-md-2 col-12 p-2 mx-3 mt-4">
-                <img src="@/assets/img/imagem2.png" alt="" class="card-img-top img-fluid">
-                    <h5 class="menu-text text-center py-3">Título</h5>
-                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                    <span class="menu-text text-center">R$ 30,00</span>
-                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
-                    <button type="button" class="btn btn-dark col-12">Comprar</button>
-            </div>
-
-          
-        
         </div>   
     </section>
   <!--fim área cardápio-->
