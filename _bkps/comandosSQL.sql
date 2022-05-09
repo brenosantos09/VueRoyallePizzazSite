@@ -32,6 +32,6 @@ ALTER TABLE usuario ADD ativo BOOLEAN NOT NULL;
 INSERT INTO usuario 
 (id,nome,senha,data_nasc,email,fotoPerfil,tel,cpf,ativo) 
 VALUES
-(null, "Fabiano Moreira", "123@123", "1980-04-02", "fabianomoreira.net@gmail.com","","5555-55555","12312312344", true);
+(null, "Breno Santos", "123@123", "1980-04-02", "brenosantos@gmail.com","","5555-55555","12312312344", true);
 
 UPDATE usuario set Nome = "Carlos Roberto", Email = "cr@email.com" where id = 3;
