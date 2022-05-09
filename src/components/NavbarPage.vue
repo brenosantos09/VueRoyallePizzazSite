@@ -100,18 +100,26 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
-  padding: 0;
+   /*navegacao header*/
+
+
+
+
+
+nav ul li{
+    margin-left: 10px;
+}
+  nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 0 20px;
+    color: #000;     
 }
 
-.nav-link a {
-  color: #fff !important;
-}
 
-.nav-link a:hover {
-  color: #0022cc !important;
-  background-color: #ffffff;
-  border-bottom: solid 5px #ecdd0b;
-  font-weight: bold;
+nav .nav-link:hover{
+    background-color: rgb(214, 25, 41);
+    border-radius: 3px;
 }
 </style>

@@ -7,7 +7,8 @@
     <HeaderPage />
     <NavbarPage />
 
-    <section id="propaganda1" class="container bg-black p-0">
+ <!-- seção banner -->
+    <section id="propaganda1" class="container-fluid bg-black p-0">
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -44,311 +45,216 @@
         </button>
       </div>
     </section>
+  <!-- fim seção banner -->
 
-    <section id="demostracao" class="container bg-white">
-      <div class="row">
-        <div class="col-md-2 col-4 text-center py-2">
-          <img
-            src="@/assets/img/icone.png"
-            alt="Demostração"
-            class="img-fluid imgSocial rounded-circle"
-          />
-          <h4>Produto</h4>
-        </div>
-        <div class="col-md-2 col-4 text-center py-2">
-          <img
-            src="@/assets/img/icone.png"
-            alt="Demostração"
-            class="img-fluid imgSocial rounded-circle"
-          />
-          <h4>Produto</h4>
-        </div>
-        <div class="col-md-2 col-4 text-center py-2">
-          <img
-            src="@/assets/img/icone.png"
-            alt="Demostração"
-            class="img-fluid imgSocial rounded-circle"
-          />
-          <h4>Produto</h4>
-        </div>
-        <div class="col-md-2 col-4 text-center py-2">
-          <img
-            src="@/assets/img/icone.png"
-            alt="Demostração"
-            class="img-fluid imgSocial rounded-circle"
-          />
-          <h4>Produto</h4>
-        </div>
-        <div class="col-md-2 col-4 text-center py-2">
-          <img
-            src="@/assets/img/icone.png"
-            alt="Demostração"
-            class="img-fluid imgSocial rounded-circle"
-          />
-          <h4>Produto</h4>
-        </div>
-        <div class="col-md-2 col-4 text-center py-2">
-          <img
-            src="@/assets/img/icone.png"
-            alt="Demostração"
-            class="img-fluid imgSocial rounded-circle"
-          />
-          <h4>Produto</h4>
-        </div>
-
-        <div class="col-1"></div>
-        <div class="demostracaoDetalhe col-10">
-          <div
-            class="
-              bg-black
-              text-white
-              col-6
-              mt-5
-              p-2
-              position-relative
-              top-0
-              start-50
-            "
-          >
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
-              adipisci blanditiis, iste debitis.
-            </p>
-          </div>
-        </div>
-        <div class="col-1"></div>
-      </div>
-    </section>
-
-    <section
-      id="propaganda2"
-      class="clearfix container center bg-black"
-    ></section>
-
-    <section id="produtos" class="container clearfix bg-white">
-      <!-- <h2>Produto de demostração</h2> -->
-
-      <div class="row">
-        <div class="col-6 col-md-3">
-          <div class="produtos">
-            <div class="p-0">
-              <a href="pages/produto-detalhe.html" target="_self">
-                <img
-                  src="@/assets/img/produtos/produto01.jpg"
-                  alt="Produto 1"
-                  class="img-fluid p-0"
-                />
-              </a>
+    <!--área propaganda-->
+    <section id="propaganda" class="bg-yellow p-4">
+        <h1 class="menu-propaganda text-center">Ofertas Especiais</h1>
+        <div class="container">
+          <div class="row">  
+            <div class="col-md-4 col-12">
+                <img src="@/assets/img/pizza1.jpg" alt="" class="img-fluid rounded-circle imagem-propaganda">
+                <p class="menu-propaganda text-center p-4 fs-3">Sabor Calabresa</p>
             </div>
-            <div class="p-2">
-              <h3>Produto 1</h3>
+            <div class="col-md-4 col-12">
+                <img src="@/assets/img/pizza2.jpg" alt="" class="img-fluid rounded-circle imagem-propaganda">
+                <p class="menu-propaganda text-center p-4 fs-3">Pizza Vegana</p>
             </div>
-            <div class="px-1">
-              <p>Descricação produtos</p>
-              <p>Valor produtos</p>
-            </div>
-            <div class="row px-3">
-              <div class="col-md-6 col-12 p-2">
-                <div class="form-group">
-                  <input
-                    type="number"
-                    step="1"
-                    min="0"
-                    max="10"
-                    value="0"
-                    class="form-control"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6 col-12 p-2">
-                <div class="">
-                  <a href="pages/produto-detalhe.html" target="_blank">
-                    <button type="button" class="btn bg-yellow col-12">
-                      Comprar
-                    </button>
-                  </a>
-                </div>
-              </div>
+            <div class="col-md-4 col-12">
+                <img src="@/assets/img/pizza3.jpg" alt="" class="img-fluid rounded-circle imagem-propaganda">
+                <p class="menu-propaganda text-center p-4 fs-3">Pizza Portuguesa</p>
             </div>
           </div>
         </div>
-      </div>
+           
     </section>
+    <!--fim área propaganda--> 
 
-    <section class="container bg-white bg-black p-0">
-      <a href="https://www.w3schools.com" target="_blank">
-        <img
-          src="@/assets/img/propaganda/p200x1000-01-2.jpg"
-          alt=""
-          class="img-fluid"
-        />
-      </a>
+    <!--área cardápio-->
+    <section id="cardapio" class="container bg-red">
+        <h2 class="text-center menu-text p-5 fs-1">Nosso Cardápio</h2>
+        <div class="row">
+            <div class="col-md-2 col-12 p-2 mx-3 mt-4">
+                <img src="@/assets/img/imagem1.png" alt="" class="card-img-top img-fluid">
+                    <h5 class="menu-text text-center py-3">Título</h5>
+                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <span class="menu-text text-center">R$ 30,00</span>
+                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                    <button type="button" class="btn btn-dark col-12">Comprar</button>
+            </div>
+
+            <div class="col-md-2 col-12 p-2 mx-3 mt-4">
+                <img src="@/assets/img/imagem2.png" alt="" class="card-img-top img-fluid">
+                    <h5 class="menu-text text-center py-3">Título</h5>
+                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <span class="menu-text text-center">R$ 30,00</span>
+                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                    <button type="button" class="btn btn-dark col-12">Comprar</button>
+            </div>
+
+            <div class="col-md-2 col-12 p-2 mx-3 mt-4">
+                <img src="@/assets/img/imagem3.png" alt="" class="card-img-top img-fluid">
+                    <h5 class="menu-text text-center py-3">Título</h5>
+                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <span class="menu-text text-center">R$ 30,00</span>
+                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                    <button type="button" class="btn btn-dark col-12">Comprar</button>
+            </div>
+
+             <div class="col-md-2 col-12 p-2 mx-3 mt-4">
+                <img src="@/assets/img/imagem2.png" alt="" class="card-img-top img-fluid">
+                    <h5 class="menu-text text-center py-3">Título</h5>
+                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <span class="menu-text text-center">R$ 30,00</span>
+                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                    <button type="button" class="btn btn-dark col-12">Comprar</button>
+            </div>
+
+          
+        
+        </div>   
     </section>
+  <!--fim área cardápio-->
 
-    <section id="areaSocial" class="container bg-white">
-      <div class="row">
-        <div class="col-md-8 col-12 px-5">
-          <div class="row produtos p-2 border-circle">
-            <div class="col-md-4 col-12 text-center my-auto">
-              <img
-                src="https://picsum.photos/200/200"
-                class="img-fluid rounded-circle"
-              />
-            </div>
-            <div class="col-md-8 col-12 pt-4">
-              <div class="border-bottom">
-                <h2>Comentario</h2>
-                <p>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div class="p-2 text-end fs-3">
-                <i class="bi bi-star px-1"></i>
-                <i class="bi bi-heart px-1"></i>
-                <i class="bi bi-chat-dots px-1"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 retirarElemento">
-          <img
-            src="@/assets/img/propaganda/p300x800-01.jpg"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section class="p-0">
-      <a href="https://www.w3schools.com" target="_blank" class="nolink">
-        <div id="propaganda4" class="container pt-5">
-          <div class="bg-blue white col-md-6 col-12 ms-auto p-2">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloremque officiis fuga blanditiis non iste, explicabo aliquid,
-              voluptas voluptate neque unde reiciendis libero natus id aut ab
-              rerum reprehenderit quidem quisquam.
-            </p>
-          </div>
-        </div>
-      </a>
-    </section>
-
-    <section id="contatoMap" class="container bg-white">
-      <div class="row">
-        <div class="col-md-6 col-12">
-          <h2 class="text-center text-uppercase">
-            Inscreva-se e Receba<br />nossas promoções!
-          </h2>
-          <form>
-            <div class="form-group">
-              <label for="" class="form-label"></label>
-              <input type="text" class="form-control" placeholder="Nome" />
-            </div>
-            <div class="row pt-4">
-              <div class="form-group col-8">
-                <!-- <label for="" class="form-label"></label> -->
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="E-mail ou telefone"
-                />
-              </div>
-
-              <div class="form-group col-4">
-                <!-- <label for="" class="form-label"></label> -->
-                <button type="button" class="btn btn-danger form-control">
-                  Submit
-                </button>
-              </div>
-            </div>
-          </form>
-          <div class="row text-center pt-2">
-            <div class="col-6">
-              <a href="https://www.instagram.com/bololandmx/" class="nolink">
-                <i class="bi bi-instagram icon"></i>
-                <b class="fontIcon"> @bololand</b>
-              </a>
-            </div>
-            <div class="col-6">
-              <a
-                href="https://api.whatsapp.com/send?l=pt-BR&phone=5521981766143&text=Oi"
-                class="nolink"
-              >
-                <i class="bi bi-whatsapp icon"></i>
-              </a>
-              <a href="tel:+55 21 5555-55555" class="nolink">
-                <!-- <i class="bi bi-whatsapp icon"></i> -->
-                <b class="fontIcon"> (21)5555-55555</b>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-12">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2584.1478118994096!2d-46.59717141063949!3d-23.65675093718646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1643415486843!5m2!1spt-BR!2sbr"
-            width="99%"
-            height="250"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          >
-          </iframe>
-          <div class="text-center">
-            <b
-              >Venha nos visitar ou peça que entragamos!<br />
-              Rua dos bolos, 234, São paulo - SP</b
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="bg-blue black bg-gray-light">
-      <div class="row">
-        <div class="col-12 py-3">
+   <!--área galeria-->
+    <section id="galeria" class="bg-black">
+        <div class="container-fluid p-5">
           <div class="row">
-            <div class="col-md-2">
-              <h4 class="ps-4">Navegação</h4>
-              <ul class="listLink">
-                <li class="listLink">
-                  <a class="nolink" href="#demostracao">Demostração</a>
-                </li>
-                <li class="listLink">
-                  <a class="nolink" href="#produtos">Produtos</a>
-                </li>
-                <li class="listLink">
-                  <a class="nolink" href="#areaSocial">Clientes</a>
-                </li>
-                <li class="listLink">
-                  <a class="nolink" href="#contatoMap">Locais</a>
-                </li>
-              </ul>
+            <div class="col-12 col-md-4">
+                  <img src="@/assets/img/img-galeria1.jpg" alt="" >
+              </div>
+            <div class="col-12 col-md-4">
+                <img src="@/assets/img/img-galeria2.jpg" alt="" >
             </div>
-            <div class="col-md-3">
-              <h4 class="ps-4">Formas de Pagamento</h4>
-              <img src="@/assets/img/pagamento.jpg" alt="" class="img-fluid" />
+            <div class="col-12 col-md-4">
+                <img src="@/assets/img/img-galeria3.jpg" alt="" >
             </div>
-            <div class="col-md-2">
-              <h4 class="ps-4">Contatos</h4>
+            <div class="col-12 col-md-4">
+                <img src="@/assets/img/img-galeria4.jpg" alt="" >
             </div>
-            <div class="col-md-2">
-              <h4 class="ps-4">Social</h4>
+            <div class="col-12 col-md-4">
+                <img src="@/assets/img/img-galeria5.jpg" alt="" >
             </div>
-            <div class="col-md-3">
-              <h4 class="ps-4">Segurança</h4>
+            <div class="col-12 col-md-4">
+                <img src="@/assets/img/img-galeria2.jpg" alt="" >
             </div>
+            
+        </div>
+    </div>    
+    </section>
+   <!--fim área galeria-->
+   
+    <!--área sobre-->
+    <section id="sobre" class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="about-us-txt col-6 m-auto">
+                    <h2 class="text-center p-4 fs-1">Sobre Nós</h2>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eligendi suscipit voluptatem maxime, ducimus consequatur illum perspiciatis, magni eum ad cupiditate deleniti reiciendis deserunt quaerat Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cum debitis quasi iure iste minima facere pariatur, ab harum corporis.</p>
+                </div>
+                <h2 class="text-center pt-5 fs-2">Nosso Time</h2>
+                <div class="col-6 col-md-3 p-3">
+                    <img src="@/assets/img/chef-1.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="col-6 col-md-3 p-3">
+                    <img src="@/assets/img/chef-2.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="col-6 col-md-3 p-3">
+                    <img src="@/assets/img/chef-3.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="col-6 col-md-3 p-3">
+                    <img src="@/assets/img/chef-4.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fim área sobre-->
+
+    <!--área do contato----------------->
+        <section id="contato">
+            <div class="container-fluid p-5">
+                <div class="row">
+                    <div class="col-md-12 col-12 areaMap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.04890141165!2d-46.875499869998976!3d-23.681531440024322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-PT!2sbr!4v1643416886303!5m2!1spt-PT!2sbr" width="98%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <h2>Contate-nos</h2>
+                    <form class="" action="cadastro.php" method="POST">
+                        <div class="pt-4">
+                            <input type="text" name="" id="" size="40" placeholder="Nome">
+                        </div>
+                        <div class="pt-4">
+                            <input type="email" name="" id="" size="40" placeholder="E-mail">
+                        </div>
+                        <div class="pt-4">
+                            <input type="text" name="" id="" size="40" placeholder="Assunto">
+                        </div>
+                        <div class="pt-4">
+                            <textarea name="" id="" cols="40" rows="10" placeholder="Mensagem"></textarea>
+                        </div>
+                        <button class="mt-4 btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+       
+    <!--fim área contato-->
+
+     <footer>
+  <div class="container col-12 p-4">
+     <div class="row">
+        <div class="col-md-2">
+          <ul class="list-group list-group-flush">
+             <li class="listLink">
+               <a class="noLink" href="#propaganda">Demonstração</a>
+             </li>
+             <li class="listLink">
+               <a class="noLink" href="#sobre">Sobre</a>
+             </li>
+             <li class="listLink">
+               <a class="noLink" href="#galeria">Galeria</a>
+             </li>
+             <li class="listLink">
+               <a class="noLink" href="#contato">Contato</a>
+             </li>
+          </ul>
+        </div>
+          <div class="col-md-3">
+             <h4 class="ps-4">Formas de Pagamento</h4>
+             <img src="@/assets/img/pagamento.jpg" alt="" class="img-fluid">
           </div>
-        </div>
-        <div class="col-12 bg-gray white copyRight pt-2">
-          <a href="" class="nolink">
-            <p>Feito por Fabiano</p>
-          </a>
-        </div>
-      </div>
-    </footer>
+          
+          <div class="col-2">
+            <h4>Horário de Atendimento</h4>
+            <ul>
+              <li>Seg/Terç<span> 7h até 12h</span></li>
+              <li>Qua/Qui<span> 7h até 12h</span></li>
+              <li>Sext/Sáb<span> 7h até 12h</span></li>
+              <li>Dom<span> - Fechado</span></li>
+            </ul>
+          </div>
+          <div class="col-3">
+             <h4>Social</h4>
+          </div>
+          <div class="col-2">
+            <h4>Segurança</h4>
+          </div>
+    </div>
+  </div>
+   </footer>
+    
+   
   </main>
 </template>
 
@@ -369,83 +275,7 @@ export default {
 
 
 <style scope>
-/* 
-Fonte: https://fonts.google.com/specimenTab?standard-styles#about
-*/
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-#propaganda2,
-#propaganda3,
-#propaganda4 {
-  padding: 0;
-  background-image: url(@/assets/img/propaganda/p200x1000-01-2.jpg);
-  width: 100%;
-  height: 100%;
-  min-height: 250px;
-}
-
-/* Corpo */
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
-  /*16px*/
-  background-color: #a0affb;
-}
-
-/* Areas */
-
-section {
-  height: 100%;
-  min-height: 250px;
-  padding: 80px 0;
-}
-
-.slides {
-  min-height: 500px;
-  background-size: cover;
-}
-
-.logo {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1000;
-}
-
-.logo img {
-  max-height: 200px;
-}
-
-.produtos {
-  border-radius: 5px;
-  border: solid 1px #bbb;
-}
-
-.produtos input,
-.produtos button {
-  border-radius: 5px;
-  border: solid 1px #bbb;
-  padding: 5px;
-}
-
-.demostracaoDetalhe {
-  height: auto;
-  min-height: 450px;
-  background-image: url(@/assets/img/produtos/produto01.jpg);
-  background-position: center;
-  background-size: cover;
-  font-size: 1.2222em;
-}
-
-.vertical {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.border-circle {
-  border-radius: 25px;
-}
 
 .imgBG1,
 .imgBG2,
@@ -456,34 +286,50 @@ section {
 }
 
 .imgBG1 {
-  background-image: url(@/assets/img/produtos/p1.jpg);
+  background-image: url(@/assets/img/banner1.jpg);
 }
 
 .imgBG2 {
-  background-image: url(@/assets/img/produtos/produto02.jpg);
+  background-image: url(@/assets/img/banner2.jpg);
 }
 
 .imgBG3 {
-  background-image: url(@/assets/img/produtos/p3.jpg);
+  background-image: url(@/assets/img/banner3.jpg);
+}
+/*seção propaganda----------------*/
+.menu-propaganda{
+    color: #000000;
+}
+.imagem-propaganda{
+    width: 300px;
+    padding-top: 40px;
+}
+/*----seçao cardapio------*/
+.menu-text{
+    color: #ffffff;
+}
+.card-img-top:hover {
+    transform: scale(1.3);
+}
+.card-img-top{
+    transition: transform 0.2s;
 }
 
-.imgSocial {
-  padding: 30px;
+/*section galeria */
+#galeria img{
+    border: 1px solid black;
+    width: 100%;
+    transition: transform, border-radius, 0.3s; 
+}
+#galeria img:hover{
+   transform: scale(1.1);
+   border-radius: 100% 0% 0% 100% / 0% 99% 1% 100%;
+}
+#galeria h1{
+    color: white;
 }
 
-.conteudoCentro {
-  height: 100%;
-  min-height: 250px;
-}
 
-.respansive {
-  width: 100%;
-}
-
-.listLink {
-  text-decoration: none;
-  list-style: none;
-}
 
 .btnVoltar {
   position: fixed;
@@ -508,49 +354,40 @@ a {
   color: inherit;
 }
 
-.icon {
-  /*32px*/
-  font-size: 2em;
+/*area de contato -----------*/
+#contato{
+    border-top: 1px solid black;
 }
 
-.fontIcon {
-  font-size: 1.2em;
+/*--------footer*/
+footer{
+    border: 1px solid black;
+    font-size: 0.9em;
+    background-color: #121619;
 }
-
-.copyRight {
-  font-size: 0.8em;
-  text-align: right;
+footer ul li{
+    list-style: none;
 }
-
-footer {
-  font-size: 0.9em;
+footer li, a, h4{
+    color: #FFFFFF;
 }
-
 footer h4 {
-  font-size: 0.9em;
-  font-weight: bold;
+    font-size: 0.9em;
+    font-weight: bold;
 }
-
-/* Media */
-
-@media screen and (max-width: 768px) {
-  .retirarElemento {
-    display: none;
-  }
-  .logo {
-    width: 100%;
-    text-align: center;
-  }
-  .imgSocial {
-    padding: 20px;
-  }
+.noLink{
+    text-decoration: none;
+    color: inherit;
 }
-
-@media print {
-  #propaganda2,
-  #propaganda3,
-  #propaganda4 {
-    display: none;
-  }
+.listLink{
+    text-decoration: none;
+    list-style: none;
+    
 }
 </style>
+
+
+
+
+
+

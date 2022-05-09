@@ -1,17 +1,18 @@
-.bg-white {
-    background-color: #ffffff;
+
+.bg-red{
+    background-color: #D6272D;
 }
 
 .white {
-    color: #ffffff;
+    color: #110101;
 }
 
 .bg-blue {
-    background-color: #5353f8;
+    background-color: #d62d2d;
 }
 
 .blue {
-    color: #5353f8;
+    color: #020202;
 }
 
 .bg-yellow {
@@ -31,7 +32,7 @@
 }
 
 .bg-gray {
-    background-color: #555;
+    background-color: rgb(31, 28, 28);
 }
 
 .gray {
@@ -39,11 +40,11 @@
 }
 
 .bg-gray-light {
-    background-color: rgb(218, 217, 217);
+    background-color: rgb(22, 14, 14);
 }
 
 .gray-light {
-    color: rgb(218, 217, 217);
+    color: rgb(2, 2, 2);
 }
 
 .borda-azul {

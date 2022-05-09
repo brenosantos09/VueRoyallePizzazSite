@@ -11,7 +11,7 @@
             class="form-control"
           />
         </div>
-        <div class="form-group">
+        <div class="form-group py-4">
           <span class="d-flex justify-content-between"
             ><label>Senha</label> <i>esqueceu senha!</i></span
           >
@@ -26,7 +26,7 @@
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <button
               type="button"
-              class="btn btn-primary mx-1"
+              class="btn btn-danger mx-1"
               @click="logonUsuario()"
             >
               Entrar
@@ -46,7 +46,7 @@
             Cadastrar
           </button> -->
           <div class="d-grid gap-2">
-            <router-link to="usuario_add" class="btn btn-outline-warning mx-1">
+            <router-link to="usuario_add" class="btn cadastrar mx-1 bg-red">
               Cadastrar
             </router-link>
           </div>
@@ -117,5 +117,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+   .cadastrar:hover{
+     background-color: rgb(226, 63, 63);
+   }
 </style>
