@@ -188,19 +188,13 @@
                     <div class="col-md-12 col-12 areaMap">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.04890141165!2d-46.875499869998976!3d-23.681531440024322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-PT!2sbr!4v1643416886303!5m2!1spt-PT!2sbr" width="98%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
-                    <h2>Contate-nos</h2>
-                    <form class="" action="cadastro.php" method="POST">
+                    <h2>Inscreva-se e Receba nossas promoções!</h2>
+                    <form class="">
                         <div class="pt-4">
-                            <input type="text" name="" id="" size="40" placeholder="Nome">
+                            <input class="" type="text" name="" id="" size="40" placeholder="Nome">
                         </div>
                         <div class="pt-4">
-                            <input type="email" name="" id="" size="40" placeholder="E-mail">
-                        </div>
-                        <div class="pt-4">
-                            <input type="text" name="" id="" size="40" placeholder="Assunto">
-                        </div>
-                        <div class="pt-4">
-                            <textarea name="" id="" cols="40" rows="10" placeholder="Mensagem"></textarea>
+                            <input type="email" name="" id="" size="40" placeholder="E-mail ou telefone">
                         </div>
                         <button class="mt-4 btn btn-dark">Enviar</button>
                     </form>

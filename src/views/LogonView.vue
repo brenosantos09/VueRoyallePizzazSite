@@ -3,17 +3,19 @@
     <NavbarPage />
     <section class="container">
       <form action="" class="col-12 col-md-6 m-auto bg-white p-5">
+      <h3 class="text-center">Login do Cliente</h3>
+       <i class="bi bi-person-fill fs-1 text-center d-block"></i>
         <div class="form-group">
-          <label>E-mail</label>
+          <label class="text-center d-block fs-5">E-mail</label>
           <input
-            type="email"
+            type="email" placeholder="Ex. joaodasilva@gmail.com"
             v-model="dadosUsuario.usuario"
             class="form-control"
           />
         </div>
         <div class="form-group py-4">
-          <span class="d-flex justify-content-between"
-            ><label>Senha</label> <i>esqueceu senha!</i></span
+          <span class="d-block text-center fs-5"
+            ><label>Senha</label> </span
           >
           <input
             type="password"
@@ -26,14 +28,14 @@
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <button
               type="button"
-              class="btn btn-danger mx-1"
+              class="btn btn-danger mx-1 px-3"
               @click="logonUsuario()"
             >
               Entrar
             </button>
             <button
               type="button"
-              class="btn btn-danger"
+              class="btn btn-danger px-3"
               @click="logoffUsuario()"
             >
               Sair

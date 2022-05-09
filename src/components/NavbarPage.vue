@@ -22,10 +22,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#demostracao">Demostração</a>
+            <a class="nav-link" href="#galeria">Demostração</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#produtos">Produtos</a>
+            <a class="nav-link" href="#cardapio">Produtos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#areaSocial">Clientes</a>
